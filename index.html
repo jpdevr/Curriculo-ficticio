@@ -6,6 +6,8 @@
     <title>Currículo Fictício</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c8de44c573.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -24,23 +26,28 @@
                     <a class="menu__link" href="#aprimoramentos">Cursos & Aprimoramentos</a>
                 </li>
             </ul>
+            <div class="divider"></div>
+            <div class="divider"></div>
         </nav>
-
+    </header>
         <main>
             <section class="dados" id="info">
                 <div class="dados__content">
-                    <h2 class="dados__title">Gustavo Henrique Santana</h2>
+                    <h1 class="dados__title">Gustavo Henrique Santana <i class="fa-solid fa-address-book"></i></h1>
                     <figure class="dados__figure">
-                        <img class="dados__img" src="img/foto.jpg" alt="Foto de Gustavo">
+                        <img class="dados__img" width="240" height="270" src="img/foto.jpeg" alt="Foto de Gustavo">
                     </figure>
-                    <p class="dados_text">27 Anos - Analista & desenvolvedor java Júnior</p>
-                    <p class="dados_text">(11) 98245-3140 - gustavo.santana@outlook.com</p>
+                    <p class="dados__text">27 Anos - Analista & desenvolvedor java Júnior</p>
+                    <p class="dados__text">(11) 98245-3140 - gustavo.santana@outlook.com</p>
                 </div>
             </section>
 
+            <div class="divider"></div>
+
             <section class="formacao" id="formacao">
+                <h2 class="formacao__title">Formação <i class="fa-solid fa-graduation-cap"></i></h2>
                 <div class="formacao__IFC">
-                    <h4 class="formacao__title">Análise e desenvolvimento de sistemas</h4>
+                    <h4 class="formacao__title--minor">Análise e desenvolvimento de sistemas</h4>
                     <p class="formacao__content">
                         Graduação em Análise e Desenvolvimento de Sistemas pelo IFC
                         <br>
@@ -50,7 +57,7 @@
                     </p>
                 </div>
                 <div class="formacao__UFC">
-                    <h4 class="formacao_title">Ciências da computação</h4>
+                    <h4 class="formacao__title--minor">Ciências da computação</h4>
                     <p class="formacao__content">
                         Mestrado em Ciências da computação pela UFC
                         <br>
@@ -60,7 +67,7 @@
                     </p>
                 </div>
                 <div class="formacao__IFSC">
-                    <h4 class="formacao__title">Sistemas da informação</h4>
+                    <h4 class="formacao__title--minor">Sistemas da informação</h4>
                     <p class="formacao__content">
                         Pós-graduação em Sistemas da informação pelo IFSC
                         <br>
@@ -71,9 +78,12 @@
                 </div>
             </section>
 
+            <div class="divider"></div>
+
             <section class="experiencias" id="experiencias">
+                <h2 class="experiencias__title">Experiências <i class="fa-solid fa-briefcase"></i></h2>
                 <div class="experiencias__microsoft">
-                    <h3 class="experiencias__title">Microsoft</h3>
+                    <h3 class="experiencias__title--minor">Microsoft</h3>
                     <p class="experiencias__content">
                         Analista backend Júnior
                         <br>
@@ -82,7 +92,7 @@
                 </div>
 
                 <div class="experiencias__salasolutions">
-                    <h3 class="experiencias__title">Sala Solutions</h3>
+                    <h3 class="experiencias__title--minor">Sala Solutions</h3>
                     <p class="experiencias__content">
                         Consultor de redes
                         <br>
@@ -91,7 +101,7 @@
                 </div>
 
                 <div class="experiencias__CA">
-                    <h3 class="experiencias__content">C&A</h3>
+                    <h3 class="experiencias__title--minor">C&A</h3>
                     <p class="experiencias__content">
                         Programador Front-end
                         <br>
@@ -100,7 +110,7 @@
                 </div>
 
                 <div class="experiencias__porto">
-                    <h3 class="experiencias__title">Porto Seguro</h3>
+                    <h3 class="experiencias__title--minor">Porto Seguro</h3>
                     <p class="experiencias__content">
                         Estágiario Assistente de T.I
                         <br>
@@ -109,17 +119,35 @@
                 </div>
             </section>
 
+            <div class="divider"></div>
+
             <section class="aprimoramentos" id="aprimoramentos">
-                <h4 class="aprimoramentos__title">Habilidades & Aprimoramentos</h4>
-                <ul class="aprimoramentos__list">
-                    <li class="aprimoramentos__item">Design Gráfico - ALURA</li>
-                    <li class="aprimoramentos__item">Imersão dev - ALURA</li>
-                    <li class="aprimoramentos__item">Controle de testes - IBM</li>
-                    <li class="aprimoramentos__item">Certificação JAVA - ORACLE</li>
-                    <li class="aprimoramentos__item">Como fazer um curriculo falso - Google</li>
-                </ul>
+                <h2 class="aprimoramentos__title">Habilidades & Aprimoramentos <i class="fa-solid fa-rocket"></i></h2>
+                <div class="aprimoramentos__content">
+                    <ul class="aprimoramentos__list">
+                        <li class="aprimoramentos__item">Design Gráfico - ALURA</li>
+                        <li class="aprimoramentos__item">Imersão dev - ALURA</li>
+                        <li class="aprimoramentos__item">Controle de testes - IBM</li>
+                        <li class="aprimoramentos__item">Certificação JAVA - ORACLE</li>
+                        <li class="aprimoramentos__item">Como fazer um curriculo falso - Google</li>
+                    </ul>
+                </div>
             </section>
         </main>
-    </header>
+
+        <footer>
+            <div class="footer__block">
+                <div class="footer__leftcontent">
+                    Todos os dados e informações deste currículos São fictícios,
+                    <br>elaborados apenas para fins de estudo e prática.
+                </div>
+                
+                <div class="footer__rightcontent">
+                    <p class="footer__text">
+                        Desenvolvido por  <a class="footer__link" href="https://github.com/jpdevr"><i class="fa-brands fa-github"></i> João Pedro Gonçalves</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
